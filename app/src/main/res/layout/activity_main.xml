@@ -14,7 +14,7 @@
         android:layout_alignParentTop="true">
 
         <TextView
-            android:id="@+id/TranslatWordRus"
+            android:id="@+id/TranslaetWordRus"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="26sp"/>
