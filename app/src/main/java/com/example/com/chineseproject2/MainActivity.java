@@ -1,5 +1,6 @@
 package com.example.com.chineseproject2;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -35,5 +36,14 @@ public class MainActivity extends AppCompatActivity {
         WordRus.setTextColor(Color.parseColor("#000000"));
         DefenitionRus.setTextColor(Color.parseColor("#000000"));
 
+    }
+
+    public void Left(View view) {
+
+    }
+
+    public void Right(View view) {
+        Intent intent = new Intent(this,FirstScreen.class);
+        startActivity(intent);
     }
 }
