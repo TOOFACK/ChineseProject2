@@ -39,7 +39,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Left(View view) {
-
+        Intent intent = new Intent(this,FirstScreen.class);
+        startActivity(intent);
     }
 
     public void Right(View view) {
