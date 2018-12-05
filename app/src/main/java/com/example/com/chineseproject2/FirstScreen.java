@@ -18,7 +18,6 @@ public class FirstScreen extends AppCompatActivity {
 
     public void Search(View view) {
         Intent intent = new Intent(this,MainActivity.class);
-        intent.putExtra("WordForTranslate",Word);
         startActivity(intent);
     }
 }

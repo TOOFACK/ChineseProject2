@@ -13,8 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true">
 
-        <TextView
-            android:id="@+id/TranslaetWordRus"
+        <EditText
+            android:id="@+id/WordRus"
+            android:hint="Введите перевод"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="26sp"/>
@@ -25,6 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <EditText
+            android:id="@+id/DefenitionRus"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="textMultiLine"
@@ -43,12 +45,14 @@
             android:id="@+id/Change"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
+            android:onClick="Change"
             android:text="Изменить"
             />
         <Button
             android:id="@+id/Save"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
+            android:onClick="Save"
             android:text="Сохранить"
             />
     </LinearLayout>
